@@ -1,0 +1,28 @@
+{
+  "name": "keenthekeen/Thai-Citizen-Check",
+  "type": "library",
+  "description": "Check if given identity is valid thai citizen",
+  "keywords": [
+    "thai",
+    "thailand",
+    "citizen",
+    "national"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Siwat Techavoranant",
+      "homepage": "https://github.com/keenthekeen",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "files": [
+      "CitizenCheck.php"
+    ]
+  }
+}
